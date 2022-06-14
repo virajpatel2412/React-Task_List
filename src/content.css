@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content_div{
+  min-height: calc(100vh - 190px);
+}
+
+.grocerylist {
+  width: 50%;
+  min-width: 300px !important;
+  max-width: 700px;
+  height: max-content;
+  padding: 10px;
+  margin: auto;
+}
+.grocerylist li {
+  background-color: antiquewhite;
+  padding: 5px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 15fr 5fr;
+  text-align: left;
+  align-items: center;
+}
+.grocerylist li > * {
+  margin: 0 12px;
+}
+.grocerylist input {
+  height: 30px;
+  width: 30px;
+}
+.grocerylist label {
+  overflow-wrap: anywhere;
+}
+.grocerylist button {
+  height: 35px;
+}
+
+.addForm {
+  position: relative;
+  width: calc(50% + 50px);
+  margin: auto;
+}
+.addForm input {
+  width : calc(100% - 50px);
+  padding: 0.5rem;
+}
+.addForm button{
+  position: absolute;
+    width: 50px;
+    height: 27px;
+    top: 4px;
+    right: 29px;
+}
